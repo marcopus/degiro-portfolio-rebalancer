@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "degiro-portfolio-rebalancer"
+version = "0.1.0"
+description = "Portfolio rebalancing for the finicky investor. A tool that keeps your assets allocation well balanced"
+authors = ["marcopus <marrez89@gmail.com>"]
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dateparser = "^1.1.1"
+pandas = "^1.4.2"
+degiro-connector = "^2.0.19"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
