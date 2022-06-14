@@ -1,0 +1,7 @@
+{
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "totp_secret_key": "YOUR_2FA_SECRET_KEY",
+    "reference_date_from": "YYYY-MM-DD",
+    "reference_date_to": "YYYY-MM-DD"
+}
