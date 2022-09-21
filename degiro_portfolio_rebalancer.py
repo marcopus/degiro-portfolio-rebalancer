@@ -176,7 +176,6 @@ def rebalance(config: dict):
         raise Exception("No portfolio data!")
 
     portfolio_df = pd.DataFrame(update_dict["portfolio"]["values"])
-    portfolio_df
 
     # PREPARE PORTFOLIO DATA
     cash = portfolio_df.loc[portfolio_df["positionType"] == "CASH", "value"].sum()
