@@ -9,7 +9,7 @@ license = "BSD-3-Clause"
 python = "^3.8"
 dateparser = "^1.1.1"
 pandas = "^1.4.2"
-degiro-connector = "^2.0.19"
+degiro-connector = { git = "git@github.com:marcopus/degiro-connector.git", branch = "2.0.22-regenerate-protobuffer-code" }
 
 [tool.poetry.dev-dependencies]
 
