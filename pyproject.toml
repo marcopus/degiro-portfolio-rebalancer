@@ -9,7 +9,7 @@ license = "BSD-3-Clause"
 python = "^3.8"
 dateparser = "^1.1.1"
 pandas = "^1.4.2"
-degiro-connector = "^2.0.19"
+degiro-connector = "^2.0.23"
 
 [tool.poetry.dev-dependencies]
 
