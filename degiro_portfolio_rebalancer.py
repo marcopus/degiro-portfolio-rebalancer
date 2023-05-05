@@ -14,7 +14,7 @@ from degiro_connector.trading.models.trading_pb2 import (
     Update,
 )
 
-TRANSACTION_COSTS = 2.50
+TRANSACTION_COSTS = 3.00
 
 
 def fetch_account_number(username: str, password: str, totp_secret_key: str) -> int:
